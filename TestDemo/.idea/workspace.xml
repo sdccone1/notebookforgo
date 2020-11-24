@@ -19,9 +19,8 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c62744f5-131b-45e3-bfdd-77f69355b6c0" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo/hello.go" beforeDir="false" afterPath="$PROJECT_DIR$/demo/hello.go" afterDir="false" />
+    <list default="true" id="c62744f5-131b-45e3-bfdd-77f69355b6c0" name="Default Changelist" comment="&quot;the second commit&quot;&#10;&quot;add MyRepartFunction.go and Mysum.go and the testDemo for their&quot;">
+      <change beforePath="$PROJECT_DIR$/demo/Mysum.go" beforeDir="false" afterPath="$PROJECT_DIR$/demo/Mysum.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -142,6 +141,10 @@
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="&quot;the second commit&quot;&#10;&quot;add MyRepartFunction.go and Mysum.go and the testDemo for their&quot;" />
+    <option name="LAST_COMMIT_MESSAGE" value="&quot;the second commit&quot;&#10;&quot;add MyRepartFunction.go and Mysum.go and the testDemo for their&quot;" />
+  </component>
   <component name="WindowStateProjectService">
     <state x="646" y="119" key="#GOPATH" timestamp="1605696610626">
       <screen x="0" y="0" width="1707" height="920" />
@@ -155,26 +158,30 @@
       <screen x="0" y="0" width="1707" height="920" />
     </state>
     <state x="634" y="215" key="FileChooserDialogImpl/0.0.1707.920@0.0.1707.920" timestamp="1605696596565" />
-    <state width="1663" height="258" key="GridCell.Tab.0.bottom" timestamp="1606223264525">
+    <state width="1663" height="320" key="GridCell.Tab.0.bottom" timestamp="1606223626757">
       <screen x="0" y="0" width="1707" height="920" />
     </state>
-    <state width="1663" height="258" key="GridCell.Tab.0.bottom/0.0.1707.920@0.0.1707.920" timestamp="1606223264525" />
-    <state width="1663" height="258" key="GridCell.Tab.0.center" timestamp="1606223264525">
+    <state width="1663" height="320" key="GridCell.Tab.0.bottom/0.0.1707.920@0.0.1707.920" timestamp="1606223626757" />
+    <state width="1663" height="320" key="GridCell.Tab.0.center" timestamp="1606223626757">
       <screen x="0" y="0" width="1707" height="920" />
     </state>
-    <state width="1663" height="258" key="GridCell.Tab.0.center/0.0.1707.920@0.0.1707.920" timestamp="1606223264525" />
-    <state width="1663" height="258" key="GridCell.Tab.0.left" timestamp="1606223264525">
+    <state width="1663" height="320" key="GridCell.Tab.0.center/0.0.1707.920@0.0.1707.920" timestamp="1606223626757" />
+    <state width="1663" height="320" key="GridCell.Tab.0.left" timestamp="1606223626757">
       <screen x="0" y="0" width="1707" height="920" />
     </state>
-    <state width="1663" height="258" key="GridCell.Tab.0.left/0.0.1707.920@0.0.1707.920" timestamp="1606223264525" />
-    <state width="1663" height="258" key="GridCell.Tab.0.right" timestamp="1606223264525">
+    <state width="1663" height="320" key="GridCell.Tab.0.left/0.0.1707.920@0.0.1707.920" timestamp="1606223626757" />
+    <state width="1663" height="320" key="GridCell.Tab.0.right" timestamp="1606223626757">
       <screen x="0" y="0" width="1707" height="920" />
     </state>
-    <state width="1663" height="258" key="GridCell.Tab.0.right/0.0.1707.920@0.0.1707.920" timestamp="1606223264525" />
+    <state width="1663" height="320" key="GridCell.Tab.0.right/0.0.1707.920@0.0.1707.920" timestamp="1606223626757" />
     <state x="355" y="105" key="SettingsEditor" timestamp="1605845257145">
       <screen x="0" y="0" width="1707" height="920" />
     </state>
     <state x="355" y="105" key="SettingsEditor/0.0.1707.920@0.0.1707.920" timestamp="1605845257145" />
+    <state x="446" y="194" key="Vcs.Push.Dialog.v2" timestamp="1606223528392">
+      <screen x="0" y="0" width="1707" height="920" />
+    </state>
+    <state x="446" y="194" key="Vcs.Push.Dialog.v2/0.0.1707.920@0.0.1707.920" timestamp="1606223528392" />
     <state x="661" y="374" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1606223376624">
       <screen x="0" y="0" width="1707" height="920" />
     </state>
