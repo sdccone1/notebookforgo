@@ -1,7 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="c62744f5-131b-45e3-bfdd-77f69355b6c0" name="Default Changelist" comment="" />
+    <list default="true" id="c62744f5-131b-45e3-bfdd-77f69355b6c0" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/hello.go" beforeDir="false" afterPath="$PROJECT_DIR$/demo/hello.go" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -11,27 +32,33 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Go File" />
+        <option value="Go Application" />
       </list>
     </option>
   </component>
-  <component name="GOROOT" path="$PROJECT_DIR$/../golang" />
+  <component name="GOROOT" path="$PROJECT_DIR$/../../golang" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
   <component name="GoLibraries">
     <option name="useGoPathFromSystemEnvironment" value="false" />
   </component>
   <component name="ProjectId" id="1kSa9VGXPnRDZm59aG71ARrTvtO" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
-    <property name="DefaultGoTemplateProperty" value="Go File" />
+    <property name="DefaultGoTemplateProperty" value="Go Application" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="configurable.Global.GOPATH.is.expanded" value="true" />
     <property name="configurable.Module.GOPATH.is.expanded" value="false" />
     <property name="configurable.Project.GOPATH.is.expanded" value="true" />
     <property name="go.import.settings.migrated" value="true" />
-    <property name="last_opened_file_path" value="$USER_HOME$" />
+    <property name="go.sdk.automatically.set" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="goland.project.structure" />
   </component>
   <component name="RecentsManager">
@@ -40,15 +67,7 @@
       <recent name="E:\TestDemo\hello" />
     </key>
   </component>
-  <component name="RunManager" selected="Go Build.go build main.go">
-    <configuration name="go build Test2.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
-      <module name="TestDemo" />
-      <working_directory value="$PROJECT_DIR$" />
-      <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/Test2.go" />
-      <directory value="$PROJECT_DIR$" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Go Test.TestMysum in mysum_test.go">
     <configuration name="go build main.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="TestDemo" />
       <working_directory value="$PROJECT_DIR$" />
@@ -77,23 +96,33 @@
       <pattern value="^\QTestHello\E$/^\Qsay_something_to_world\E$" />
       <method v="2" />
     </configuration>
-    <configuration name="TestHello/test_result_for_function_Hello in hello_test.go" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+    <configuration name="TestMyRepeat in repeat_test.go" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="TestDemo" />
       <working_directory value="$PROJECT_DIR$" />
       <framework value="gotest" />
       <kind value="FILE" />
       <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/hello_test.go" />
-      <pattern value="^\QTestHello\E$/^\Qtest_result_for_function_Hello\E$" />
+      <filePath value="$PROJECT_DIR$/repeat_test.go" />
+      <pattern value="^\QTestMyRepeat\E$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="TestMysum in mysum_test.go" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="TestDemo" />
+      <working_directory value="$PROJECT_DIR$" />
+      <framework value="gotest" />
+      <kind value="FILE" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$/mysum_test.go" />
+      <pattern value="^\QTestMysum\E$" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Test.TestMysum in mysum_test.go" />
+        <item itemvalue="Go Test.TestMyRepeat in repeat_test.go" />
         <item itemvalue="Go Build.go build main.go" />
         <item itemvalue="Go Test.TestHello in hello_test.go" />
         <item itemvalue="Go Test.TestHello/say_something_to_world in hello_test.go" />
-        <item itemvalue="Go Test.TestHello/test_result_for_function_Hello in hello_test.go" />
-        <item itemvalue="Go Build.go build Test2.go" />
       </list>
     </recent_temporary>
   </component>
@@ -101,38 +130,58 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
   <component name="WindowStateProjectService">
     <state x="646" y="119" key="#GOPATH" timestamp="1605696610626">
       <screen x="0" y="0" width="1707" height="920" />
     </state>
     <state x="646" y="119" key="#GOPATH/0.0.1707.920@0.0.1707.920" timestamp="1605696610626" />
+    <state x="698" y="190" key="#Notifications" timestamp="1606220625902">
+      <screen x="0" y="0" width="1707" height="920" />
+    </state>
+    <state x="698" y="190" key="#Notifications/0.0.1707.920@0.0.1707.920" timestamp="1606220625902" />
     <state x="634" y="215" key="FileChooserDialogImpl" timestamp="1605696596565">
       <screen x="0" y="0" width="1707" height="920" />
     </state>
     <state x="634" y="215" key="FileChooserDialogImpl/0.0.1707.920@0.0.1707.920" timestamp="1605696596565" />
-    <state width="1663" height="104" key="GridCell.Tab.0.bottom" timestamp="1605704891277">
+    <state width="1663" height="258" key="GridCell.Tab.0.bottom" timestamp="1606223264525">
       <screen x="0" y="0" width="1707" height="920" />
     </state>
-    <state width="1663" height="104" key="GridCell.Tab.0.bottom/0.0.1707.920@0.0.1707.920" timestamp="1605704891277" />
-    <state width="1663" height="104" key="GridCell.Tab.0.center" timestamp="1605704891277">
+    <state width="1663" height="258" key="GridCell.Tab.0.bottom/0.0.1707.920@0.0.1707.920" timestamp="1606223264525" />
+    <state width="1663" height="258" key="GridCell.Tab.0.center" timestamp="1606223264525">
       <screen x="0" y="0" width="1707" height="920" />
     </state>
-    <state width="1663" height="104" key="GridCell.Tab.0.center/0.0.1707.920@0.0.1707.920" timestamp="1605704891277" />
-    <state width="1663" height="104" key="GridCell.Tab.0.left" timestamp="1605704891277">
+    <state width="1663" height="258" key="GridCell.Tab.0.center/0.0.1707.920@0.0.1707.920" timestamp="1606223264525" />
+    <state width="1663" height="258" key="GridCell.Tab.0.left" timestamp="1606223264525">
       <screen x="0" y="0" width="1707" height="920" />
     </state>
-    <state width="1663" height="104" key="GridCell.Tab.0.left/0.0.1707.920@0.0.1707.920" timestamp="1605704891277" />
-    <state width="1663" height="104" key="GridCell.Tab.0.right" timestamp="1605704891277">
+    <state width="1663" height="258" key="GridCell.Tab.0.left/0.0.1707.920@0.0.1707.920" timestamp="1606223264525" />
+    <state width="1663" height="258" key="GridCell.Tab.0.right" timestamp="1606223264525">
       <screen x="0" y="0" width="1707" height="920" />
     </state>
-    <state width="1663" height="104" key="GridCell.Tab.0.right/0.0.1707.920@0.0.1707.920" timestamp="1605704891277" />
+    <state width="1663" height="258" key="GridCell.Tab.0.right/0.0.1707.920@0.0.1707.920" timestamp="1606223264525" />
     <state x="355" y="105" key="SettingsEditor" timestamp="1605845257145">
       <screen x="0" y="0" width="1707" height="920" />
     </state>
     <state x="355" y="105" key="SettingsEditor/0.0.1707.920@0.0.1707.920" timestamp="1605845257145" />
-    <state x="625" y="241" width="672" height="678" key="search.everywhere.popup" timestamp="1605704296980">
+    <state x="661" y="374" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1606223376624">
       <screen x="0" y="0" width="1707" height="920" />
     </state>
-    <state x="625" y="241" width="672" height="678" key="search.everywhere.popup/0.0.1707.920@0.0.1707.920" timestamp="1605704296980" />
+    <state x="661" y="374" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1707.920@0.0.1707.920" timestamp="1606223376624" />
+    <state x="625" y="241" width="672" height="678" key="search.everywhere.popup" timestamp="1606221587226">
+      <screen x="0" y="0" width="1707" height="920" />
+    </state>
+    <state x="625" y="241" width="672" height="678" key="search.everywhere.popup/0.0.1707.920@0.0.1707.920" timestamp="1606221587226" />
   </component>
 </project>

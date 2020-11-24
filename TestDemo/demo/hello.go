@@ -1,4 +1,5 @@
 package demo
+
 /**
 @author:David Ma
 @Content:test for fmt package
@@ -6,7 +7,7 @@ package demo
 */
 func Hello(feeling string) string {
 	prefix := ""
-	const name = "Lisa"
+	const name string = "Lisa"
 	//注意go中的switch的case不用在写break强制中断匹配了，当匹配成功后会自动终止，不再继续匹配下去了！
 	switch feeling {
 	case "good":
@@ -18,4 +19,3 @@ func Hello(feeling string) string {
 	}
 	return prefix + name
 }
-
