@@ -5,9 +5,11 @@ package main
 @Content:对demo.MyRepeat()编写测试函数
 @Date:2020-11-24 20:47
 */
-import "testing"
-import "./demo"
-import "strings"
+import (
+	"./demo"
+	"strings"
+	"testing"
+)
 
 func TestMyRepeat(t *testing.T) {
 	assertCorrectMessage := func(t *testing.T, got, want string) {

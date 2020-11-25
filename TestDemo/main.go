@@ -1,6 +1,10 @@
 package main
-import "fmt"
-import "./demo"
+
+import (
+	"./demo"
+	"fmt"
+)
+
 /**
 @author:David Ma
 @Content:
@@ -10,11 +14,11 @@ go的跨模块调用实现：
 3、最后，在调用相应的方法时通过 package_Name.func_Name()的形式来完成调用
 @Date:2020-11-18 20:07
 */
-func saySomething2(prefix, name string){
+func saySomething2(prefix, name string) {
 	fmt.Println(prefix + " " + name)
 }
 
-func main()  {
+func main() {
 	//print()与printf()的区别为printf(String format,T data)支持格式化输出
 	//fmt.Println("Helllo world")
 	//fmt.Printf("%[2]d %4.2[1]f",12.11,2)
@@ -23,7 +27,6 @@ func main()  {
 	saySomething := func(prefix, name string) {
 		fmt.Println(prefix + " " + name)
 	}
-	saySomething("Hello","Lisa")
-	saySomething2("Hello","Lisa")
+	saySomething("Hello", "Lisa")
+	saySomething2("Hello", "Lisa")
 }
-

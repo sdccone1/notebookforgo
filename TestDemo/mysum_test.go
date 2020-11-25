@@ -5,8 +5,10 @@ package main
 @Content:为demo.Mysum()编写测试用例，注意这里的数组和切片的定义方式以及区别，特别是切片，很类似Java中的ArrayList
 @Date : 2020-11-24 21:09
 */
-import "testing"
-import "./demo"
+import (
+	"./demo"
+	"testing"
+)
 
 func TestMysum(t *testing.T) {
 
