@@ -25,9 +25,8 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c62744f5-131b-45e3-bfdd-77f69355b6c0" name="Default Changelist" comment="&quot;the first commition&quot;&#10;&quot;新增匿名函数的demo&quot;">
+    <list default="true" id="c62744f5-131b-45e3-bfdd-77f69355b6c0" name="Default Changelist" comment="&quot;the sixth commition&quot;&#10;&quot;更新了main.go 、MyConst.go以及AnonymousFunction.go&quot;">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AnonymousFunction.go" beforeDir="false" afterPath="$PROJECT_DIR$/demo/AnonymousFunction.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -175,7 +174,8 @@
     <MESSAGE value="&quot;the fourth commit&quot;&#10;&quot;update Mysum.go and mysum_test.go&quot;&#10;&quot;新增了对数组和切片slices进行求和的API，以及相应的测试函数&quot;" />
     <MESSAGE value="&quot;the fifth commition&quot;&#10;&quot;更新了improt的格式，整合了import语句&quot;" />
     <MESSAGE value="&quot;the first commition&quot;&#10;&quot;新增匿名函数的demo&quot;" />
-    <option name="LAST_COMMIT_MESSAGE" value="&quot;the first commition&quot;&#10;&quot;新增匿名函数的demo&quot;" />
+    <MESSAGE value="&quot;the sixth commition&quot;&#10;&quot;更新了main.go 、MyConst.go以及AnonymousFunction.go&quot;" />
+    <option name="LAST_COMMIT_MESSAGE" value="&quot;the sixth commition&quot;&#10;&quot;更新了main.go 、MyConst.go以及AnonymousFunction.go&quot;" />
   </component>
   <component name="WindowStateProjectService">
     <state x="646" y="119" key="#GOPATH" timestamp="1605696610626">
@@ -190,30 +190,30 @@
       <screen x="0" y="0" width="1707" height="920" />
     </state>
     <state x="634" y="215" key="FileChooserDialogImpl/0.0.1707.920@0.0.1707.920" timestamp="1605696596565" />
-    <state width="1663" height="227" key="GridCell.Tab.0.bottom" timestamp="1606455017203">
+    <state width="1663" height="227" key="GridCell.Tab.0.bottom" timestamp="1606455347622">
       <screen x="0" y="0" width="1707" height="920" />
     </state>
-    <state width="1663" height="227" key="GridCell.Tab.0.bottom/0.0.1707.920@0.0.1707.920" timestamp="1606455017203" />
-    <state width="1663" height="227" key="GridCell.Tab.0.center" timestamp="1606455017203">
+    <state width="1663" height="227" key="GridCell.Tab.0.bottom/0.0.1707.920@0.0.1707.920" timestamp="1606455347622" />
+    <state width="1663" height="227" key="GridCell.Tab.0.center" timestamp="1606455347622">
       <screen x="0" y="0" width="1707" height="920" />
     </state>
-    <state width="1663" height="227" key="GridCell.Tab.0.center/0.0.1707.920@0.0.1707.920" timestamp="1606455017203" />
-    <state width="1663" height="227" key="GridCell.Tab.0.left" timestamp="1606455017203">
+    <state width="1663" height="227" key="GridCell.Tab.0.center/0.0.1707.920@0.0.1707.920" timestamp="1606455347622" />
+    <state width="1663" height="227" key="GridCell.Tab.0.left" timestamp="1606455347622">
       <screen x="0" y="0" width="1707" height="920" />
     </state>
-    <state width="1663" height="227" key="GridCell.Tab.0.left/0.0.1707.920@0.0.1707.920" timestamp="1606455017203" />
-    <state width="1663" height="227" key="GridCell.Tab.0.right" timestamp="1606455017203">
+    <state width="1663" height="227" key="GridCell.Tab.0.left/0.0.1707.920@0.0.1707.920" timestamp="1606455347622" />
+    <state width="1663" height="227" key="GridCell.Tab.0.right" timestamp="1606455347622">
       <screen x="0" y="0" width="1707" height="920" />
     </state>
-    <state width="1663" height="227" key="GridCell.Tab.0.right/0.0.1707.920@0.0.1707.920" timestamp="1606455017203" />
+    <state width="1663" height="227" key="GridCell.Tab.0.right/0.0.1707.920@0.0.1707.920" timestamp="1606455347622" />
     <state x="355" y="105" key="SettingsEditor" timestamp="1605845257145">
       <screen x="0" y="0" width="1707" height="920" />
     </state>
     <state x="355" y="105" key="SettingsEditor/0.0.1707.920@0.0.1707.920" timestamp="1605845257145" />
-    <state x="446" y="194" key="Vcs.Push.Dialog.v2" timestamp="1606397922214">
+    <state x="446" y="194" key="Vcs.Push.Dialog.v2" timestamp="1606455354676">
       <screen x="0" y="0" width="1707" height="920" />
     </state>
-    <state x="446" y="194" key="Vcs.Push.Dialog.v2/0.0.1707.920@0.0.1707.920" timestamp="1606397922214" />
+    <state x="446" y="194" key="Vcs.Push.Dialog.v2/0.0.1707.920@0.0.1707.920" timestamp="1606455354676" />
     <state x="661" y="374" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1606223376624">
       <screen x="0" y="0" width="1707" height="920" />
     </state>
