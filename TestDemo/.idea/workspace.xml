@@ -25,7 +25,7 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c62744f5-131b-45e3-bfdd-77f69355b6c0" name="Default Changelist" comment="&quot;the sixth commition&quot;&#10;&quot;更新了main.go 、MyConst.go以及AnonymousFunction.go&quot;">
+    <list default="true" id="c62744f5-131b-45e3-bfdd-77f69355b6c0" name="Default Changelist" comment="&quot;the sixth commition&quot;&#10;&quot;更新了main.go 、MyConst.go&quot;">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -73,7 +73,7 @@
       <recent name="E:\TestDemo\hello" />
     </key>
   </component>
-  <component name="RunManager" selected="Go Build.go build main.go">
+  <component name="RunManager" selected="Go Test.TestEquals in mapdemo_test.go">
     <configuration name="go build AnonymousFunction.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="TestDemo" />
       <working_directory value="$PROJECT_DIR$" />
@@ -90,17 +90,17 @@
       <directory value="$PROJECT_DIR$" />
       <method v="2" />
     </configuration>
-    <configuration name="TestMyRepeat in repeat_test.go (1)" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+    <configuration name="TestEquals in mapdemo_test.go" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="TestDemo" />
       <working_directory value="$PROJECT_DIR$" />
       <framework value="gotest" />
       <kind value="FILE" />
       <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/repeat_test.go" />
-      <pattern value="^\QTestMyRepeat\E$" />
+      <filePath value="$PROJECT_DIR$/mapdemo_test.go" />
+      <pattern value="^\QTestEquals\E$" />
       <method v="2" />
     </configuration>
-    <configuration name="TestMyRepeat in repeat_test.go" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+    <configuration name="TestMyRepeat in repeat_test.go (1)" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="TestDemo" />
       <working_directory value="$PROJECT_DIR$" />
       <framework value="gotest" />
@@ -122,11 +122,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Test.TestEquals in mapdemo_test.go" />
         <item itemvalue="Go Build.go build main.go" />
         <item itemvalue="Go Build.go build AnonymousFunction.go" />
         <item itemvalue="Go Test.TestMyRepeat in repeat_test.go (1)" />
         <item itemvalue="Go Test.TestMysum in mysum_test.go" />
-        <item itemvalue="Go Test.TestMyRepeat in repeat_test.go" />
       </list>
     </recent_temporary>
   </component>
@@ -175,7 +175,8 @@
     <MESSAGE value="&quot;the fifth commition&quot;&#10;&quot;更新了improt的格式，整合了import语句&quot;" />
     <MESSAGE value="&quot;the first commition&quot;&#10;&quot;新增匿名函数的demo&quot;" />
     <MESSAGE value="&quot;the sixth commition&quot;&#10;&quot;更新了main.go 、MyConst.go以及AnonymousFunction.go&quot;" />
-    <option name="LAST_COMMIT_MESSAGE" value="&quot;the sixth commition&quot;&#10;&quot;更新了main.go 、MyConst.go以及AnonymousFunction.go&quot;" />
+    <MESSAGE value="&quot;the sixth commition&quot;&#10;&quot;更新了main.go 、MyConst.go&quot;" />
+    <option name="LAST_COMMIT_MESSAGE" value="&quot;the sixth commition&quot;&#10;&quot;更新了main.go 、MyConst.go&quot;" />
   </component>
   <component name="WindowStateProjectService">
     <state x="646" y="119" key="#GOPATH" timestamp="1605696610626">
@@ -190,30 +191,30 @@
       <screen x="0" y="0" width="1707" height="920" />
     </state>
     <state x="634" y="215" key="FileChooserDialogImpl/0.0.1707.920@0.0.1707.920" timestamp="1605696596565" />
-    <state width="1663" height="227" key="GridCell.Tab.0.bottom" timestamp="1606455347622">
+    <state width="1663" height="408" key="GridCell.Tab.0.bottom" timestamp="1606462493677">
       <screen x="0" y="0" width="1707" height="920" />
     </state>
-    <state width="1663" height="227" key="GridCell.Tab.0.bottom/0.0.1707.920@0.0.1707.920" timestamp="1606455347622" />
-    <state width="1663" height="227" key="GridCell.Tab.0.center" timestamp="1606455347622">
+    <state width="1663" height="408" key="GridCell.Tab.0.bottom/0.0.1707.920@0.0.1707.920" timestamp="1606462493677" />
+    <state width="1663" height="408" key="GridCell.Tab.0.center" timestamp="1606462493677">
       <screen x="0" y="0" width="1707" height="920" />
     </state>
-    <state width="1663" height="227" key="GridCell.Tab.0.center/0.0.1707.920@0.0.1707.920" timestamp="1606455347622" />
-    <state width="1663" height="227" key="GridCell.Tab.0.left" timestamp="1606455347622">
+    <state width="1663" height="408" key="GridCell.Tab.0.center/0.0.1707.920@0.0.1707.920" timestamp="1606462493677" />
+    <state width="1663" height="408" key="GridCell.Tab.0.left" timestamp="1606462493677">
       <screen x="0" y="0" width="1707" height="920" />
     </state>
-    <state width="1663" height="227" key="GridCell.Tab.0.left/0.0.1707.920@0.0.1707.920" timestamp="1606455347622" />
-    <state width="1663" height="227" key="GridCell.Tab.0.right" timestamp="1606455347622">
+    <state width="1663" height="408" key="GridCell.Tab.0.left/0.0.1707.920@0.0.1707.920" timestamp="1606462493677" />
+    <state width="1663" height="408" key="GridCell.Tab.0.right" timestamp="1606462493677">
       <screen x="0" y="0" width="1707" height="920" />
     </state>
-    <state width="1663" height="227" key="GridCell.Tab.0.right/0.0.1707.920@0.0.1707.920" timestamp="1606455347622" />
+    <state width="1663" height="408" key="GridCell.Tab.0.right/0.0.1707.920@0.0.1707.920" timestamp="1606462493677" />
     <state x="355" y="105" key="SettingsEditor" timestamp="1605845257145">
       <screen x="0" y="0" width="1707" height="920" />
     </state>
     <state x="355" y="105" key="SettingsEditor/0.0.1707.920@0.0.1707.920" timestamp="1605845257145" />
-    <state x="446" y="194" key="Vcs.Push.Dialog.v2" timestamp="1606455354676">
+    <state x="446" y="194" key="Vcs.Push.Dialog.v2" timestamp="1606457492698">
       <screen x="0" y="0" width="1707" height="920" />
     </state>
-    <state x="446" y="194" key="Vcs.Push.Dialog.v2/0.0.1707.920@0.0.1707.920" timestamp="1606455354676" />
+    <state x="446" y="194" key="Vcs.Push.Dialog.v2/0.0.1707.920@0.0.1707.920" timestamp="1606457492698" />
     <state x="661" y="374" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1606223376624">
       <screen x="0" y="0" width="1707" height="920" />
     </state>
