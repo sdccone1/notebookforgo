@@ -1,4 +1,4 @@
-package main
+package test
 
 /**
 @author：DavidMa
@@ -6,7 +6,7 @@ package main
 @Date : 2020-11-24 21:09
 */
 import (
-	"./demo"
+	"../demo"
 	"testing"
 )
 

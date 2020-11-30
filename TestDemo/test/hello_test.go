@@ -1,7 +1,7 @@
-package main
+package test
 
 import (
-	"./demo"
+	"../demo"
 	"testing"
 )
 

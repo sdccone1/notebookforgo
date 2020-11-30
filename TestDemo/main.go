@@ -1,11 +1,8 @@
 package main
 
-/**
-@author:DavidMa
-@Content: 展示demo包下的MyConst.go以及AnonymousFunction.go的结果
-@Date: 2020-11-27 13:32
-*/
-import "./demo"
+import (
+	"./demo"
+)
 
 func main() {
 	f := demo.Squares()
