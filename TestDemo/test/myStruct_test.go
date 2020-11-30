@@ -23,9 +23,9 @@ func TestMyStruct(t *testing.T) {
 		//	phone : "12345678901"
 		//	...
 		//}
-
+		add1, add2 := demo.GetAddress(user)
 		fmt.Printf("name = '%s' phone = '%s' password = '%s' address1 = '%s' address2 = '%s' \n",
-			demo.GetUserName(user), demo.GetPhone(user), demo.GetPassWord(user), demo.GetAddress(user)[0], demo.GetAddress(user)[1])
+			demo.GetUserName(user), demo.GetPhone(user), demo.GetPassWord(user), add1, add2)
 	})
 
 	// 只有导出的结构体成员才会被编码，这也就是我们为什么选择用大写字母开头的成员名称

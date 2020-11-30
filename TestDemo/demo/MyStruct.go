@@ -73,12 +73,11 @@ func GetPassWord(user *User) (pwd string) {
 	return user.password
 }
 
-func GetAddress(user *User) (address []string) {
+func GetAddress(user *User) (address1, address2 string) {
 	//case1:通过匿名成员的特性来直接获取被嵌套的成员的属性
 	//虽然user中的成员均不是导出的(私有的)，但是因为此时同属于用一个包所以非导出成员也可以被访问到
 	add := user.country + user.city + "市" + user.street + "街道"
 	//case2:传统方式获取被嵌套的成员的属性
 	add2 := user.Address.country + user.Address.city + "市" + user.Address.street + "街道"
-	addList := []string{add, add2}
-	return addList
+	return add, add2
 }
