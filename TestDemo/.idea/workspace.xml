@@ -25,13 +25,10 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c62744f5-131b-45e3-bfdd-77f69355b6c0" name="Default Changelist" comment="&quot;the seven commition&quot;&#10;&quot;新增MapDemo.go 、mapdemp_test.go&quot;">
+    <list default="true" id="c62744f5-131b-45e3-bfdd-77f69355b6c0" name="Default Changelist" comment="&quot;the first commition&quot;&#10;&quot;新增MyStruct.go 、myStruct_test.go以及整合了_test.go文件将其放入test包 下&quot;">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hello_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/test/hello_test.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/main.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mapdemo_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/test/mapdemo_test.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysum_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/test/mysum_test.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/repeat_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/test/repeat_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/MyStruct.go" beforeDir="false" afterPath="$PROJECT_DIR$/demo/MyStruct.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/myStruct_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/test/myStruct_test.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,7 +75,7 @@
       <recent name="E:\TestDemo\hello" />
     </key>
   </component>
-  <component name="RunManager" selected="Go Test.TestMyStruct/如何定义并初始化一个struct in myStruct_test.go">
+  <component name="RunManager" selected="Go Test.TestMyStruct/定义一个Movie类型(其成员均可导出，方便编解码操作)的切片，并展示将其编码为json以及反编码 in myStruct_test.go">
     <configuration name="go build main.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="TestDemo" />
       <working_directory value="$PROJECT_DIR$" />
@@ -87,24 +84,34 @@
       <directory value="$PROJECT_DIR$" />
       <method v="2" />
     </configuration>
-    <configuration name="TestHello in hello_test.go" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+    <configuration name="TestMyStruct/定义一个Movie类型(其成员均可导出，方便编解码操作)的切片，并展示将其编码为json以及反编码 in myStruct_test.go" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="TestDemo" />
-      <working_directory value="$PROJECT_DIR$" />
+      <working_directory value="$PROJECT_DIR$/test" />
       <framework value="gotest" />
       <kind value="FILE" />
       <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/hello_test.go" />
-      <pattern value="^\QTestHello\E$" />
+      <filePath value="$PROJECT_DIR$/test/myStruct_test.go" />
+      <pattern value="^\QTestMyStruct\E$/^\Q定义一个Movie类型(其成员均可导出，方便编解码操作)的切片，并展示将其编码为json以及反编码\E$" />
       <method v="2" />
     </configuration>
-    <configuration name="TestMyRepeat in repeat_test.go" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+    <configuration name="TestMyStruct/定义一个User2类型(其成员均可导出，方便编解码操作)的切片，并展示将其编码为json以及反编码(只有导出的结构体成员才会被编码，这也就是我们为什么选择用大写字母开头的成员名称) in myStruct_test.go (1)" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="TestDemo" />
-      <working_directory value="$PROJECT_DIR$" />
+      <working_directory value="$PROJECT_DIR$/test" />
       <framework value="gotest" />
       <kind value="FILE" />
       <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/repeat_test.go" />
-      <pattern value="^\QTestMyRepeat\E$" />
+      <filePath value="$PROJECT_DIR$/test/myStruct_test.go" />
+      <pattern value="^\QTestMyStruct\E$/^\Q定义一个User2类型(其成员均可导出，方便编解码操作)的切片，并展示将其编码为json以及反编码(只有导出的结构体成员才会被编码，这也就是我们为什么选择用大写字母开头的成员名称)\E$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="TestMyStruct/定义一个User2类型(其成员均可导出，方便编解码操作)的切片，并展示将其编码为json以及反编码(只有导出的结构体成员才会被编码，这也就是我们为什么选择用大写字母开头的成员名称) in myStruct_test.go" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="TestDemo" />
+      <working_directory value="$PROJECT_DIR$/test" />
+      <framework value="gotest" />
+      <kind value="FILE" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$/test/myStruct_test.go" />
+      <pattern value="^\QTestMyStruct\E$/^\Q定义一个User2类型(其成员均可导出，方便编解码操作)的切片，并展示将其编码为json以及反编码(只有导出的结构体成员才会被编码，这也就是我们为什么选择用大写字母开头的成员名称)\E$" />
       <method v="2" />
     </configuration>
     <configuration name="TestMyStruct/如何定义并初始化一个struct in myStruct_test.go" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
@@ -117,23 +124,13 @@
       <pattern value="^\QTestMyStruct\E$/^\Q如何定义并初始化一个struct\E$" />
       <method v="2" />
     </configuration>
-    <configuration name="TestMysum in mysum_test.go" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
-      <module name="TestDemo" />
-      <working_directory value="$PROJECT_DIR$" />
-      <framework value="gotest" />
-      <kind value="FILE" />
-      <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/mysum_test.go" />
-      <pattern value="^\QTestMysum\E$" />
-      <method v="2" />
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Test.TestMyStruct/定义一个Movie类型(其成员均可导出，方便编解码操作)的切片，并展示将其编码为json以及反编码 in myStruct_test.go" />
+        <item itemvalue="Go Test.TestMyStruct/定义一个User2类型(其成员均可导出，方便编解码操作)的切片，并展示将其编码为json以及反编码(只有导出的结构体成员才会被编码，这也就是我们为什么选择用大写字母开头的成员名称) in myStruct_test.go (1)" />
+        <item itemvalue="Go Test.TestMyStruct/定义一个User2类型(其成员均可导出，方便编解码操作)的切片，并展示将其编码为json以及反编码(只有导出的结构体成员才会被编码，这也就是我们为什么选择用大写字母开头的成员名称) in myStruct_test.go" />
         <item itemvalue="Go Test.TestMyStruct/如何定义并初始化一个struct in myStruct_test.go" />
         <item itemvalue="Go Build.go build main.go" />
-        <item itemvalue="Go Test.TestMysum in mysum_test.go" />
-        <item itemvalue="Go Test.TestMyRepeat in repeat_test.go" />
-        <item itemvalue="Go Test.TestHello in hello_test.go" />
       </list>
     </recent_temporary>
   </component>
@@ -169,7 +166,8 @@
     <MESSAGE value="&quot;the second commit&quot;&#10;&quot;add MyRepartFunction.go and Mysum.go and the testDemo for their&quot;" />
     <MESSAGE value="&quot;the third commit&quot;&#10;&quot;update Mysum.go &quot;" />
     <MESSAGE value="&quot;the seven commition&quot;&#10;&quot;新增MapDemo.go 、mapdemp_test.go&quot;" />
-    <option name="LAST_COMMIT_MESSAGE" value="&quot;the seven commition&quot;&#10;&quot;新增MapDemo.go 、mapdemp_test.go&quot;" />
+    <MESSAGE value="&quot;the first commition&quot;&#10;&quot;新增MyStruct.go 、myStruct_test.go以及整合了_test.go文件将其放入test包 下&quot;" />
+    <option name="LAST_COMMIT_MESSAGE" value="&quot;the first commition&quot;&#10;&quot;新增MyStruct.go 、myStruct_test.go以及整合了_test.go文件将其放入test包 下&quot;" />
   </component>
   <component name="WindowStateProjectService">
     <state x="646" y="119" key="#GOPATH" timestamp="1605696610626">
@@ -184,30 +182,30 @@
       <screen x="0" y="0" width="1707" height="920" />
     </state>
     <state x="634" y="215" key="FileChooserDialogImpl/0.0.1707.920@0.0.1707.920" timestamp="1605696596565" />
-    <state width="1663" height="320" key="GridCell.Tab.0.bottom" timestamp="1606467236481">
+    <state width="1663" height="370" key="GridCell.Tab.0.bottom" timestamp="1606733677346">
       <screen x="0" y="0" width="1707" height="920" />
     </state>
-    <state width="1663" height="320" key="GridCell.Tab.0.bottom/0.0.1707.920@0.0.1707.920" timestamp="1606467236481" />
-    <state width="1663" height="320" key="GridCell.Tab.0.center" timestamp="1606467236481">
+    <state width="1663" height="370" key="GridCell.Tab.0.bottom/0.0.1707.920@0.0.1707.920" timestamp="1606733677346" />
+    <state width="1663" height="370" key="GridCell.Tab.0.center" timestamp="1606733677346">
       <screen x="0" y="0" width="1707" height="920" />
     </state>
-    <state width="1663" height="320" key="GridCell.Tab.0.center/0.0.1707.920@0.0.1707.920" timestamp="1606467236481" />
-    <state width="1663" height="320" key="GridCell.Tab.0.left" timestamp="1606467236481">
+    <state width="1663" height="370" key="GridCell.Tab.0.center/0.0.1707.920@0.0.1707.920" timestamp="1606733677346" />
+    <state width="1663" height="370" key="GridCell.Tab.0.left" timestamp="1606733677346">
       <screen x="0" y="0" width="1707" height="920" />
     </state>
-    <state width="1663" height="320" key="GridCell.Tab.0.left/0.0.1707.920@0.0.1707.920" timestamp="1606467236481" />
-    <state width="1663" height="320" key="GridCell.Tab.0.right" timestamp="1606467236481">
+    <state width="1663" height="370" key="GridCell.Tab.0.left/0.0.1707.920@0.0.1707.920" timestamp="1606733677346" />
+    <state width="1663" height="370" key="GridCell.Tab.0.right" timestamp="1606733677346">
       <screen x="0" y="0" width="1707" height="920" />
     </state>
-    <state width="1663" height="320" key="GridCell.Tab.0.right/0.0.1707.920@0.0.1707.920" timestamp="1606467236481" />
+    <state width="1663" height="370" key="GridCell.Tab.0.right/0.0.1707.920@0.0.1707.920" timestamp="1606733677346" />
     <state x="355" y="105" key="SettingsEditor" timestamp="1605845257145">
       <screen x="0" y="0" width="1707" height="920" />
     </state>
     <state x="355" y="105" key="SettingsEditor/0.0.1707.920@0.0.1707.920" timestamp="1605845257145" />
-    <state x="446" y="194" key="Vcs.Push.Dialog.v2" timestamp="1606462680731">
+    <state x="446" y="194" key="Vcs.Push.Dialog.v2" timestamp="1606727002008">
       <screen x="0" y="0" width="1707" height="920" />
     </state>
-    <state x="446" y="194" key="Vcs.Push.Dialog.v2/0.0.1707.920@0.0.1707.920" timestamp="1606462680731" />
+    <state x="446" y="194" key="Vcs.Push.Dialog.v2/0.0.1707.920@0.0.1707.920" timestamp="1606727002008" />
     <state x="661" y="374" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1606223376624">
       <screen x="0" y="0" width="1707" height="920" />
     </state>

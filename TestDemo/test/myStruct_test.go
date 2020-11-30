@@ -2,7 +2,9 @@ package test
 
 import (
 	"../demo"
+	"encoding/json"
 	"fmt"
+	"log"
 	"testing"
 )
 
@@ -24,5 +26,35 @@ func TestMyStruct(t *testing.T) {
 
 		fmt.Printf("name = '%s' phone = '%s' password = '%s' address1 = '%s' address2 = '%s' \n",
 			demo.GetUserName(user), demo.GetPhone(user), demo.GetPassWord(user), demo.GetAddress(user)[0], demo.GetAddress(user)[1])
+	})
+
+	// 只有导出的结构体成员才会被编码，这也就是我们为什么选择用大写字母开头的成员名称
+	t.Run("定义一个Movie类型(其成员均可导出，方便编解码操作)的切片，并展示将其编码为json以及反编码", func(t *testing.T) {
+		data := []demo.Movie{
+			{Title: "Casablanca", Year: 1942, Color: false,
+				Actors: []string{"Humphrey Bogart", "Ingrid Bergman"}},
+			{Title: "Cool Hand Luke", Year: 1967, Color: true,
+				Actors: []string{"Paul Newman"}},
+			{Title: "I Can Fly", Year: 1968, Color: true,
+				Actors: []string{"Steve McQueen", "Jacqueline BBB"}},
+		}
+		//marshal
+		msg, err := json.MarshalIndent(data, "", " ")
+		if err != nil {
+			log.Fatalf("Json marshal faliled '%s'", err)
+		}
+		fmt.Printf("JSON串为：%s\n", msg)
+
+		//unmarshal(下面只解码Title和Actors信息)
+		var receivedTitles []struct {
+			Title  string
+			Actors []string
+		}
+		//json.Unmarshal(@args1:json串，@argus2:一个用于接收解码后的数据的结构)，这里特别注意arus2必须为指针类型，因为要对其做修改，而go又是值传递
+		err2 := json.Unmarshal(msg, &receivedTitles)
+		if err2 != nil {
+			log.Fatalf("Json unmarshal faliled '%s'\n", err2)
+		}
+		fmt.Printf("the Title of Movies is:'%s' \n", receivedTitles)
 	})
 }

@@ -5,6 +5,14 @@ package demo
 @content: struct结构体相关
 @Date:2020-11-30
 */
+
+type Movie struct {
+	Title  string
+	Year   int  `json:"released"`
+	Color  bool `json:"color,omitempty"`
+	Actors []string
+}
+
 type Address struct {
 	country, city, street string
 }
