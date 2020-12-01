@@ -1,5 +1,10 @@
 package test
 
+/*
+@Author:David Ma
+@Content:struct结构体相关操作
+@Date:2020-12-01 15:03
+*/
 import (
 	"../demo"
 	"encoding/json"
@@ -10,22 +15,61 @@ import (
 
 func TestMyStruct(t *testing.T) {
 
-	t.Run("如何定义并初始化一个struct", func(t *testing.T) {
-		// case1：使用 new()函数
+	// case1：使用 new()函数
+	t.Run("如何定义并初始化一个struct之使用new()函数来初始化一个struct", func(t *testing.T) {
+
 		user := new(demo.User)
 		demo.SetPhone(user, "12345678901")
 		demo.SetUserName(user, "Bob")
 		demo.SetPassword(user, "11111")
 		demo.SetAddress(user, "中国", "苏州", "平江")
-
-		//case2:还可以使用字面常量的方式来定义，只不过由于User的成员不是导出的，所以此时由于不在一个包下，无法访问到其成员，且匿名成员无法通过这种字面常量的方式来定义
-		//u2 := demo.User{
-		//	phone : "12345678901"
-		//	...
-		//}
 		add1, add2 := demo.GetAddress(user)
 		fmt.Printf("name = '%s' phone = '%s' password = '%s' address1 = '%s' address2 = '%s' \n",
 			demo.GetUserName(user), demo.GetPhone(user), demo.GetPassWord(user), add1, add2)
+		//case2:还可以使用字面常量的方式来定义，
+		type Animal struct {
+			Age int
+		}
+
+		type Person struct {
+			Animal
+			Name string
+		}
+
+		type Student struct {
+			Person
+			ClassName string
+		}
+
+	})
+
+	//case2:还可以使用字面常量的方式来定义，
+	t.Run("如何定义并初始化一个struct之使用字面常量的方式来初始化一个struct", func(t *testing.T) {
+
+		type Animal struct {
+			Age int
+		}
+
+		type Person struct {
+			Animal
+			Name string
+		}
+
+		type Student struct {
+			Person
+			ClassName string
+		}
+		s := Student{
+			Person{
+				Animal: Animal{ //注意这里匿名成名如何使用字面常量的方式来初始化
+					Age: 18,
+				},
+				Name: "Bob",
+			},
+			"Class01",
+		}
+		fmt.Printf("%+v \n", s)
+
 	})
 
 	// 只有导出的结构体成员才会被编码，这也就是我们为什么选择用大写字母开头的成员名称

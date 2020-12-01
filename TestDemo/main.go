@@ -2,6 +2,8 @@ package main
 
 import (
 	"./demo"
+	"bytes"
+	"fmt"
 )
 
 func main() {
@@ -13,4 +15,20 @@ func main() {
 		println(f())
 	}
 	demo.MyConst()
+	a := 1
+	b := 2
+	fmt.Println(^a)
+	fmt.Println(a ^ b)
+	s1 := "hello"
+	s2 := "world"
+	c := s1 + string(1)
+	// 借助字节缓冲区byteBuffer来实现类似Java中StringBuilder的效果，因为在go中string底层是由byte数组实现的
+	StringBuilder := bytes.Buffer{}
+	StringBuilder.WriteString(s1)
+	StringBuilder.WriteString(" ")
+	StringBuilder.WriteString(s2)
+	fmt.Println(StringBuilder.String())
+	e := 'a'
+	fmt.Println(e)
+	fmt.Printf("%c \n", c)
 }
