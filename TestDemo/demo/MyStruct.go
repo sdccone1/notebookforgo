@@ -5,7 +5,6 @@ package demo
 @content: struct结构体相关
 @Date:2020-11-30
 */
-
 type Movie struct {
 	Title  string
 	Year   int  `json:"released"`
@@ -27,28 +26,36 @@ type User struct {
 	Address
 }
 
-func SetUserName(user *User, name string) bool {
+func (user *User) SetName(name string) bool {
 	if user == nil {
 		return false
 	}
 	user.username = name
 	return true
 }
-func SetPhone(user *User, phoneNum string) bool {
+
+func (user *User) SetUserName(name string) bool {
+	if user == nil {
+		return false
+	}
+	user.username = name
+	return true
+}
+func (user *User) SetPhone(phoneNum string) bool {
 	if user == nil {
 		return false
 	}
 	user.phone = phoneNum
 	return true
 }
-func SetPassword(user *User, password string) bool {
+func (user *User) SetPassword(password string) bool {
 	if user == nil {
 		return false
 	}
 	user.password = password
 	return true
 }
-func SetAddress(user *User, country, city, street string) bool {
+func (user *User) SetAddress(country, city, street string) bool {
 	if user == nil {
 		return false
 	}
@@ -61,19 +68,19 @@ func SetAddress(user *User, country, city, street string) bool {
 	return true
 }
 
-func GetPhone(user *User) (phone string) {
+func (user *User) GetPhone() (phone string) {
 	return user.phone
 }
 
-func GetUserName(user *User) (name string) {
+func (user *User) GetUserName() (name string) {
 	return user.username
 }
 
-func GetPassWord(user *User) (pwd string) {
+func (user *User) GetPassWord() (pwd string) {
 	return user.password
 }
 
-func GetAddress(user *User) (address1, address2 string) {
+func (user *User) GetAddress() (address1, address2 string) {
 	//case1:通过匿名成员的特性来直接获取被嵌套的成员的属性
 	//虽然user中的成员均不是导出的(私有的)，但是因为此时同属于用一个包所以非导出成员也可以被访问到
 	add := user.country + user.city + "市" + user.street + "街道"

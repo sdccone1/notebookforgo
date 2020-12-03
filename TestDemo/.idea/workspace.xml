@@ -25,9 +25,10 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c62744f5-131b-45e3-bfdd-77f69355b6c0" name="Default Changelist" comment="&quot;the first commition&quot;&#10;&quot;新增myType.go 以及 myType_test.go&quot;&#10;&quot;go如何实现oop&quot;">
+    <list default="true" id="c62744f5-131b-45e3-bfdd-77f69355b6c0" name="Default Changelist" comment="&quot;the first commition&quot;&#10;&quot;新增FunctionalCondition.go 以及 FunctionalCondition_test.go&quot;&#10;&quot;将方法作为参数进行方法传参&quot;">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/MyStruct.go" beforeDir="false" afterPath="$PROJECT_DIR$/demo/MyStruct.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/myStruct_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/test/myStruct_test.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,7 +75,7 @@
       <recent name="E:\TestDemo\hello" />
     </key>
   </component>
-  <component name="RunManager" selected="Go Test.TestFD/将函数当做参数进行传参 in funtionalcondition_test.go">
+  <component name="RunManager" selected="Go Test.TestMyStruct/如何定义并初始化一个struct之使用new()函数来初始化一个struct in myStruct_test.go">
     <configuration name="go build main.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="TestDemo" />
       <working_directory value="$PROJECT_DIR$" />
@@ -103,6 +104,16 @@
       <pattern value="^\QTestFD\E$/^\Q将函数当做参数进行传参\E$" />
       <method v="2" />
     </configuration>
+    <configuration name="TestMyStruct/如何定义并初始化一个struct之使用new()函数来初始化一个struct in myStruct_test.go" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="TestDemo" />
+      <working_directory value="$PROJECT_DIR$/test" />
+      <framework value="gotest" />
+      <kind value="FILE" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$/test/myStruct_test.go" />
+      <pattern value="^\QTestMyStruct\E$/^\Q如何定义并初始化一个struct之使用new()函数来初始化一个struct\E$" />
+      <method v="2" />
+    </configuration>
     <configuration name="TestMyType in mytype_test.go" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="TestDemo" />
       <working_directory value="$PROJECT_DIR$/test" />
@@ -113,23 +124,13 @@
       <pattern value="^\QTestMyType\E$" />
       <method v="2" />
     </configuration>
-    <configuration name="TestMyType/#00 in mytype_test.go" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
-      <module name="TestDemo" />
-      <working_directory value="$PROJECT_DIR$/test" />
-      <framework value="gotest" />
-      <kind value="FILE" />
-      <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/test/mytype_test.go" />
-      <pattern value="^\QTestMyType\E$/^\Q#00\E$" />
-      <method v="2" />
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Test.TestMyStruct/如何定义并初始化一个struct之使用new()函数来初始化一个struct in myStruct_test.go" />
         <item itemvalue="Go Test.TestFD/将函数当做参数进行传参 in funtionalcondition_test.go" />
         <item itemvalue="Go Test.TestFD in funtionalcondition_test.go" />
         <item itemvalue="Go Build.go build main.go" />
         <item itemvalue="Go Test.TestMyType in mytype_test.go" />
-        <item itemvalue="Go Test.TestMyType/#00 in mytype_test.go" />
       </list>
     </recent_temporary>
   </component>
@@ -169,7 +170,8 @@
     <MESSAGE value="&quot;the second commition&quot;&#10;&quot;更新myStruct_test.go,新增json编解码用例&quot;" />
     <MESSAGE value="&quot;the second commition&quot;&#10;&quot;更新myStruct_test.go,在main.go中新增用go实现类似Java中的StringBuilder&quot;" />
     <MESSAGE value="&quot;the first commition&quot;&#10;&quot;新增myType.go 以及 myType_test.go&quot;&#10;&quot;go如何实现oop&quot;" />
-    <option name="LAST_COMMIT_MESSAGE" value="&quot;the first commition&quot;&#10;&quot;新增myType.go 以及 myType_test.go&quot;&#10;&quot;go如何实现oop&quot;" />
+    <MESSAGE value="&quot;the first commition&quot;&#10;&quot;新增FunctionalCondition.go 以及 FunctionalCondition_test.go&quot;&#10;&quot;将方法作为参数进行方法传参&quot;" />
+    <option name="LAST_COMMIT_MESSAGE" value="&quot;the first commition&quot;&#10;&quot;新增FunctionalCondition.go 以及 FunctionalCondition_test.go&quot;&#10;&quot;将方法作为参数进行方法传参&quot;" />
   </component>
   <component name="WindowStateProjectService">
     <state x="646" y="119" key="#GOPATH" timestamp="1605696610626">
@@ -184,30 +186,30 @@
       <screen x="0" y="0" width="1707" height="920" />
     </state>
     <state x="634" y="215" key="FileChooserDialogImpl/0.0.1707.920@0.0.1707.920" timestamp="1605696596565" />
-    <state width="1663" height="222" key="GridCell.Tab.0.bottom" timestamp="1606965927595">
+    <state width="1663" height="222" key="GridCell.Tab.0.bottom" timestamp="1606967343261">
       <screen x="0" y="0" width="1707" height="920" />
     </state>
-    <state width="1663" height="222" key="GridCell.Tab.0.bottom/0.0.1707.920@0.0.1707.920" timestamp="1606965927595" />
-    <state width="1663" height="222" key="GridCell.Tab.0.center" timestamp="1606965927595">
+    <state width="1663" height="222" key="GridCell.Tab.0.bottom/0.0.1707.920@0.0.1707.920" timestamp="1606967343261" />
+    <state width="1663" height="222" key="GridCell.Tab.0.center" timestamp="1606967343261">
       <screen x="0" y="0" width="1707" height="920" />
     </state>
-    <state width="1663" height="222" key="GridCell.Tab.0.center/0.0.1707.920@0.0.1707.920" timestamp="1606965927595" />
-    <state width="1663" height="222" key="GridCell.Tab.0.left" timestamp="1606965927595">
+    <state width="1663" height="222" key="GridCell.Tab.0.center/0.0.1707.920@0.0.1707.920" timestamp="1606967343261" />
+    <state width="1663" height="222" key="GridCell.Tab.0.left" timestamp="1606967343261">
       <screen x="0" y="0" width="1707" height="920" />
     </state>
-    <state width="1663" height="222" key="GridCell.Tab.0.left/0.0.1707.920@0.0.1707.920" timestamp="1606965927595" />
-    <state width="1663" height="222" key="GridCell.Tab.0.right" timestamp="1606965927595">
+    <state width="1663" height="222" key="GridCell.Tab.0.left/0.0.1707.920@0.0.1707.920" timestamp="1606967343261" />
+    <state width="1663" height="222" key="GridCell.Tab.0.right" timestamp="1606967343261">
       <screen x="0" y="0" width="1707" height="920" />
     </state>
-    <state width="1663" height="222" key="GridCell.Tab.0.right/0.0.1707.920@0.0.1707.920" timestamp="1606965927595" />
+    <state width="1663" height="222" key="GridCell.Tab.0.right/0.0.1707.920@0.0.1707.920" timestamp="1606967343261" />
     <state x="355" y="105" key="SettingsEditor" timestamp="1605845257145">
       <screen x="0" y="0" width="1707" height="920" />
     </state>
     <state x="355" y="105" key="SettingsEditor/0.0.1707.920@0.0.1707.920" timestamp="1605845257145" />
-    <state x="446" y="194" key="Vcs.Push.Dialog.v2" timestamp="1606809212536">
+    <state x="446" y="194" key="Vcs.Push.Dialog.v2" timestamp="1606966852469">
       <screen x="0" y="0" width="1707" height="920" />
     </state>
-    <state x="446" y="194" key="Vcs.Push.Dialog.v2/0.0.1707.920@0.0.1707.920" timestamp="1606809212536" />
+    <state x="446" y="194" key="Vcs.Push.Dialog.v2/0.0.1707.920@0.0.1707.920" timestamp="1606966852469" />
     <state x="661" y="374" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1606223376624">
       <screen x="0" y="0" width="1707" height="920" />
     </state>

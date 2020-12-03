@@ -19,13 +19,13 @@ func TestMyStruct(t *testing.T) {
 	t.Run("如何定义并初始化一个struct之使用new()函数来初始化一个struct", func(t *testing.T) {
 
 		user := new(demo.User)
-		demo.SetPhone(user, "12345678901")
-		demo.SetUserName(user, "Bob")
-		demo.SetPassword(user, "11111")
-		demo.SetAddress(user, "中国", "苏州", "平江")
-		add1, add2 := demo.GetAddress(user)
+		user.SetPhone("12345678901")
+		user.SetUserName("Bob")
+		user.SetPassword("11111")
+		user.SetAddress("中国", "苏州", "平江")
+		add1, add2 := user.GetAddress()
 		fmt.Printf("name = '%s' phone = '%s' password = '%s' address1 = '%s' address2 = '%s' \n",
-			demo.GetUserName(user), demo.GetPhone(user), demo.GetPassWord(user), add1, add2)
+			user.GetUserName(), user.GetPhone(), user.GetPassWord(), add1, add2)
 		//case2:还可以使用字面常量的方式来定义，
 		type Animal struct {
 			Age int
