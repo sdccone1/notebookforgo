@@ -16,7 +16,7 @@ func TestMyInterface(t *testing.T) {
 	t.Run("", func(t *testing.T) {
 		cat := demo.Cat{Name: "Tom"}
 		dog := demo.Dog{Name: "Jerry"}
-		// 注意这里要传一个指针类型
+		// 注意这里要传一个指针类型，因为是指针类型(* Dog以及* Cat）实现了EatService接口，而不是Dog和Cat，也就是只有*Dog或者*Cat类型才可以看作是EatService类型)
 		//否则compile error:Cannot use 'cat' (type Cat) as type EatService Type does not implement 'EatService' as 'Eat' method has a pointer receiver
 		demo.MyEat(&cat)
 		demo.MySleep(&cat)

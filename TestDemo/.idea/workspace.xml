@@ -25,8 +25,9 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c62744f5-131b-45e3-bfdd-77f69355b6c0" name="Default Changelist" comment="&quot;the second commition&quot;&#10;&quot;更新MyStruct.go 以及 MyStruct_test.go&quot;&#10;&quot;oop实现&quot;">
+    <list default="true" id="c62744f5-131b-45e3-bfdd-77f69355b6c0" name="Default Changelist" comment="&quot;the first commition&quot;&#10;&quot;新增MyInterface.go 以及 MyInterface_test.go&quot;&#10;&quot;接口的相关实现&quot;">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/myinterface_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/test/myinterface_test.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -172,7 +173,8 @@
     <MESSAGE value="&quot;the first commition&quot;&#10;&quot;新增myType.go 以及 myType_test.go&quot;&#10;&quot;go如何实现oop&quot;" />
     <MESSAGE value="&quot;the first commition&quot;&#10;&quot;新增FunctionalCondition.go 以及 FunctionalCondition_test.go&quot;&#10;&quot;将方法作为参数进行方法传参&quot;" />
     <MESSAGE value="&quot;the second commition&quot;&#10;&quot;更新MyStruct.go 以及 MyStruct_test.go&quot;&#10;&quot;oop实现&quot;" />
-    <option name="LAST_COMMIT_MESSAGE" value="&quot;the second commition&quot;&#10;&quot;更新MyStruct.go 以及 MyStruct_test.go&quot;&#10;&quot;oop实现&quot;" />
+    <MESSAGE value="&quot;the first commition&quot;&#10;&quot;新增MyInterface.go 以及 MyInterface_test.go&quot;&#10;&quot;接口的相关实现&quot;" />
+    <option name="LAST_COMMIT_MESSAGE" value="&quot;the first commition&quot;&#10;&quot;新增MyInterface.go 以及 MyInterface_test.go&quot;&#10;&quot;接口的相关实现&quot;" />
   </component>
   <component name="WindowStateProjectService">
     <state x="646" y="119" key="#GOPATH" timestamp="1605696610626">
@@ -207,17 +209,17 @@
       <screen x="0" y="0" width="1707" height="920" />
     </state>
     <state x="355" y="105" key="SettingsEditor/0.0.1707.920@0.0.1707.920" timestamp="1605845257145" />
-    <state x="446" y="194" key="Vcs.Push.Dialog.v2" timestamp="1606980164495">
+    <state x="446" y="194" key="Vcs.Push.Dialog.v2" timestamp="1606983784880">
       <screen x="0" y="0" width="1707" height="920" />
     </state>
-    <state x="446" y="194" key="Vcs.Push.Dialog.v2/0.0.1707.920@0.0.1707.920" timestamp="1606980164495" />
+    <state x="446" y="194" key="Vcs.Push.Dialog.v2/0.0.1707.920@0.0.1707.920" timestamp="1606983784880" />
     <state x="661" y="374" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1606223376624">
       <screen x="0" y="0" width="1707" height="920" />
     </state>
     <state x="661" y="374" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1707.920@0.0.1707.920" timestamp="1606223376624" />
-    <state x="625" y="241" width="672" height="678" key="search.everywhere.popup" timestamp="1606964564947">
+    <state x="625" y="241" width="672" height="678" key="search.everywhere.popup" timestamp="1606983757116">
       <screen x="0" y="0" width="1707" height="920" />
     </state>
-    <state x="625" y="241" width="672" height="678" key="search.everywhere.popup/0.0.1707.920@0.0.1707.920" timestamp="1606964564947" />
+    <state x="625" y="241" width="672" height="678" key="search.everywhere.popup/0.0.1707.920@0.0.1707.920" timestamp="1606983757116" />
   </component>
 </project>
