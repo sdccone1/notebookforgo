@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="BranchesTreeState">
     <expand>
       <path>
@@ -27,7 +30,7 @@
   <component name="ChangeListManager">
     <list default="true" id="c62744f5-131b-45e3-bfdd-77f69355b6c0" name="Default Changelist" comment="&quot;the first commition&quot;&#10;&quot;新增MyInterface.go 以及 MyInterface_test.go&quot;&#10;&quot;接口的相关实现&quot;">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/myinterface_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/test/myinterface_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/MyStruct.go" beforeDir="false" afterPath="$PROJECT_DIR$/demo/MyStruct.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,64 +77,64 @@
       <recent name="E:\TestDemo\hello" />
     </key>
   </component>
-  <component name="RunManager" selected="Go Test.TestMyInterface/#00 in myinterface_test.go">
-    <configuration name="TestFD in funtionalcondition_test.go" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Go Test.TestReflect/#01 in MyReflect_test.go">
+    <configuration name="TestReflect/Type相关操作:Type及相关的操作主要用于获取一个(接口)变量的类型信息，而不是实例信息(实例信息通过Value来获取)！！！ in MyReflect_test.go" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="TestDemo" />
       <working_directory value="$PROJECT_DIR$/test" />
       <framework value="gotest" />
       <kind value="FILE" />
       <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/test/funtionalcondition_test.go" />
-      <pattern value="^\QTestFD\E$" />
+      <filePath value="$PROJECT_DIR$/test/MyReflect_test.go" />
+      <pattern value="^\QTestReflect\E$/^\QType相关操作:Type及相关的操作主要用于获取一个(接口)变量的类型信息，而不是实例信息(实例信息通过Value来获取)！！！\E$" />
       <method v="2" />
     </configuration>
-    <configuration name="TestFD/将函数当做参数进行传参 in funtionalcondition_test.go" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+    <configuration name="TestReflect/Type相关操作:它们主要用于获取一个(接口)变量的类型信息，而不是实例信息 in MyReflect_test.go" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="TestDemo" />
       <working_directory value="$PROJECT_DIR$/test" />
       <framework value="gotest" />
       <kind value="FILE" />
       <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/test/funtionalcondition_test.go" />
-      <pattern value="^\QTestFD\E$/^\Q将函数当做参数进行传参\E$" />
+      <filePath value="$PROJECT_DIR$/test/MyReflect_test.go" />
+      <pattern value="^\QTestReflect\E$/^\QType相关操作:它们主要用于获取一个(接口)变量的类型信息，而不是实例信息\E$" />
       <method v="2" />
     </configuration>
-    <configuration name="TestMyInterface in myinterface_test.go" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+    <configuration name="TestReflect/Value相关操作:Value及相关的操作主要用于获取一个(接口)实例变量的实例信息 in MyReflect_test.go" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="TestDemo" />
       <working_directory value="$PROJECT_DIR$/test" />
       <framework value="gotest" />
       <kind value="FILE" />
       <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/test/myinterface_test.go" />
-      <pattern value="^\QTestMyInterface\E$" />
+      <filePath value="$PROJECT_DIR$/test/MyReflect_test.go" />
+      <pattern value="^\QTestReflect\E$/^\QValue相关操作:Value及相关的操作主要用于获取一个(接口)实例变量的实例信息\E$" />
       <method v="2" />
     </configuration>
-    <configuration name="TestMyInterface/#00 in myinterface_test.go" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+    <configuration name="TestReflect/#00 in MyReflect_test.go" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="TestDemo" />
       <working_directory value="$PROJECT_DIR$/test" />
       <framework value="gotest" />
       <kind value="FILE" />
       <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/test/myinterface_test.go" />
-      <pattern value="^\QTestMyInterface\E$/^\Q#00\E$" />
+      <filePath value="$PROJECT_DIR$/test/MyReflect_test.go" />
+      <pattern value="^\QTestReflect\E$/^\Q#00\E$" />
       <method v="2" />
     </configuration>
-    <configuration name="TestMyStruct/如何定义并初始化一个struct之使用new()函数来初始化一个struct in myStruct_test.go" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+    <configuration name="TestReflect/#01 in MyReflect_test.go" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="TestDemo" />
       <working_directory value="$PROJECT_DIR$/test" />
       <framework value="gotest" />
       <kind value="FILE" />
       <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/test/myStruct_test.go" />
-      <pattern value="^\QTestMyStruct\E$/^\Q如何定义并初始化一个struct之使用new()函数来初始化一个struct\E$" />
+      <filePath value="$PROJECT_DIR$/test/MyReflect_test.go" />
+      <pattern value="^\QTestReflect\E$/^\Q#01\E$" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Go Test.TestMyInterface/#00 in myinterface_test.go" />
-        <item itemvalue="Go Test.TestMyInterface in myinterface_test.go" />
-        <item itemvalue="Go Test.TestMyStruct/如何定义并初始化一个struct之使用new()函数来初始化一个struct in myStruct_test.go" />
-        <item itemvalue="Go Test.TestFD/将函数当做参数进行传参 in funtionalcondition_test.go" />
-        <item itemvalue="Go Test.TestFD in funtionalcondition_test.go" />
+        <item itemvalue="Go Test.TestReflect/#01 in MyReflect_test.go" />
+        <item itemvalue="Go Test.TestReflect/#00 in MyReflect_test.go" />
+        <item itemvalue="Go Test.TestReflect/Value相关操作:Value及相关的操作主要用于获取一个(接口)实例变量的实例信息 in MyReflect_test.go" />
+        <item itemvalue="Go Test.TestReflect/Type相关操作:Type及相关的操作主要用于获取一个(接口)变量的类型信息，而不是实例信息(实例信息通过Value来获取)！！！ in MyReflect_test.go" />
+        <item itemvalue="Go Test.TestReflect/Type相关操作:它们主要用于获取一个(接口)变量的类型信息，而不是实例信息 in MyReflect_test.go" />
       </list>
     </recent_temporary>
   </component>
@@ -189,37 +192,37 @@
       <screen x="0" y="0" width="1707" height="920" />
     </state>
     <state x="634" y="215" key="FileChooserDialogImpl/0.0.1707.920@0.0.1707.920" timestamp="1605696596565" />
-    <state width="1663" height="372" key="GridCell.Tab.0.bottom" timestamp="1606981344901">
+    <state width="1663" height="648" key="GridCell.Tab.0.bottom" timestamp="1607345791317">
       <screen x="0" y="0" width="1707" height="920" />
     </state>
-    <state width="1663" height="372" key="GridCell.Tab.0.bottom/0.0.1707.920@0.0.1707.920" timestamp="1606981344901" />
-    <state width="1663" height="372" key="GridCell.Tab.0.center" timestamp="1606981344901">
+    <state width="1663" height="648" key="GridCell.Tab.0.bottom/0.0.1707.920@0.0.1707.920" timestamp="1607345791317" />
+    <state width="1663" height="648" key="GridCell.Tab.0.center" timestamp="1607345791317">
       <screen x="0" y="0" width="1707" height="920" />
     </state>
-    <state width="1663" height="372" key="GridCell.Tab.0.center/0.0.1707.920@0.0.1707.920" timestamp="1606981344901" />
-    <state width="1663" height="372" key="GridCell.Tab.0.left" timestamp="1606981344901">
+    <state width="1663" height="648" key="GridCell.Tab.0.center/0.0.1707.920@0.0.1707.920" timestamp="1607345791317" />
+    <state width="1663" height="648" key="GridCell.Tab.0.left" timestamp="1607345791317">
       <screen x="0" y="0" width="1707" height="920" />
     </state>
-    <state width="1663" height="372" key="GridCell.Tab.0.left/0.0.1707.920@0.0.1707.920" timestamp="1606981344901" />
-    <state width="1663" height="372" key="GridCell.Tab.0.right" timestamp="1606981344901">
+    <state width="1663" height="648" key="GridCell.Tab.0.left/0.0.1707.920@0.0.1707.920" timestamp="1607345791317" />
+    <state width="1663" height="648" key="GridCell.Tab.0.right" timestamp="1607345791317">
       <screen x="0" y="0" width="1707" height="920" />
     </state>
-    <state width="1663" height="372" key="GridCell.Tab.0.right/0.0.1707.920@0.0.1707.920" timestamp="1606981344901" />
+    <state width="1663" height="648" key="GridCell.Tab.0.right/0.0.1707.920@0.0.1707.920" timestamp="1607345791317" />
     <state x="355" y="105" key="SettingsEditor" timestamp="1605845257145">
       <screen x="0" y="0" width="1707" height="920" />
     </state>
     <state x="355" y="105" key="SettingsEditor/0.0.1707.920@0.0.1707.920" timestamp="1605845257145" />
-    <state x="446" y="194" key="Vcs.Push.Dialog.v2" timestamp="1606983784880">
+    <state x="446" y="194" key="Vcs.Push.Dialog.v2" timestamp="1606983797911">
       <screen x="0" y="0" width="1707" height="920" />
     </state>
-    <state x="446" y="194" key="Vcs.Push.Dialog.v2/0.0.1707.920@0.0.1707.920" timestamp="1606983784880" />
+    <state x="446" y="194" key="Vcs.Push.Dialog.v2/0.0.1707.920@0.0.1707.920" timestamp="1606983797911" />
     <state x="661" y="374" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1606223376624">
       <screen x="0" y="0" width="1707" height="920" />
     </state>
     <state x="661" y="374" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1707.920@0.0.1707.920" timestamp="1606223376624" />
-    <state x="625" y="241" width="672" height="678" key="search.everywhere.popup" timestamp="1606983757116">
+    <state x="625" y="241" width="672" height="678" key="search.everywhere.popup" timestamp="1607335755227">
       <screen x="0" y="0" width="1707" height="920" />
     </state>
-    <state x="625" y="241" width="672" height="678" key="search.everywhere.popup/0.0.1707.920@0.0.1707.920" timestamp="1606983757116" />
+    <state x="625" y="241" width="672" height="678" key="search.everywhere.popup/0.0.1707.920@0.0.1707.920" timestamp="1607335755227" />
   </component>
 </project>

@@ -1,10 +1,14 @@
 package demo
 
+import "fmt"
+
 /*
 @author:David Ma
 @content: struct结构体相关
 @Date:2020-11-30
 */
+var testInt int = 10
+
 type Movie struct {
 	Title  string
 	Year   int  `json:"released"`
@@ -18,7 +22,7 @@ type Address struct {
 
 type User struct {
 	phone    string
-	username string
+	username string `lowerName:"name" type:"varchar(50)"` // struct的tag信息`k:v`
 	password string
 	// 测试匿名成员和非匿名成员的区别
 	address1 Address
@@ -34,6 +38,15 @@ func (user *User) SetName(name string) bool {
 	return true
 }
 
+func (User) Test1() {
+	fmt.Println("this is func Test1")
+}
+func (User) Test2() {
+	fmt.Println("this is func Test2")
+}
+func (User) Test3() {
+	fmt.Println("this is func Test3")
+}
 func (user *User) SetUserName(name string) bool {
 	if user == nil {
 		return false
@@ -73,6 +86,10 @@ func (user *User) GetPhone() (phone string) {
 }
 
 func (user *User) GetUserName() (name string) {
+	return user.username
+}
+
+func (user User) GetName() (name string) {
 	return user.username
 }
 
