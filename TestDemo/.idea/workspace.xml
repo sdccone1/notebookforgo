@@ -28,10 +28,7 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c62744f5-131b-45e3-bfdd-77f69355b6c0" name="Default Changelist" comment="&quot;the first commition&quot;&#10;&quot;新增MyReflect_test.go&quot;&#10;&quot;Go反射的相关实现&quot;">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/main.go" afterDir="false" />
-    </list>
+    <list default="true" id="c62744f5-131b-45e3-bfdd-77f69355b6c0" name="Default Changelist" comment="&quot;the first commition&quot;" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -182,6 +179,7 @@
     <MESSAGE value="&quot;the second commition&quot;&#10;&quot;更新MyStruct.go 以及 MyStruct_test.go&quot;&#10;&quot;oop实现&quot;" />
     <MESSAGE value="&quot;the first commition&quot;&#10;&quot;新增MyInterface.go 以及 MyInterface_test.go&quot;&#10;&quot;接口的相关实现&quot;" />
     <MESSAGE value="&quot;the first commition&quot;&#10;&quot;新增MyReflect_test.go&quot;&#10;&quot;Go反射的相关实现&quot;" />
-    <option name="LAST_COMMIT_MESSAGE" value="&quot;the first commition&quot;&#10;&quot;新增MyReflect_test.go&quot;&#10;&quot;Go反射的相关实现&quot;" />
+    <MESSAGE value="&quot;the first commition&quot;" />
+    <option name="LAST_COMMIT_MESSAGE" value="&quot;the first commition&quot;" />
   </component>
 </project>

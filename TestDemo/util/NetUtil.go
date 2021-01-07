@@ -19,7 +19,7 @@ func IPV4() (ip string) {
 			}
 		}
 	}
-	return ""
+	return "0.0.0.0"
 }
 
 func IPStr2Int(ipAddr string) (ipInt int64) {
